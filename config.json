@@ -1,0 +1,38 @@
+{
+  "botName": "Bot",
+  "messageLimit": 1700,
+  "commands":[
+    {
+    "command": "version",
+    "params": 0,
+    "easyReply": false
+    },
+    {
+    "command": "endstream",
+    "params": 0,
+    "easyReply": true,
+    "reply": ""
+    }
+  ],
+  "timePosting":{
+    "interval": 240,
+    "post": [
+      "Jet fuel Can't Melt Steel Beams",
+      "@Nightbot I will take your job one day"
+    ]
+  },
+  "irc": {
+    "options": {
+      "debug": false
+    },
+    "connection": {
+      "cluster": "aws",
+      "reconnect": true
+    },
+    "identity": {
+      "username": "xxxxxxxxxxxxx",
+      "password": "oauth:xxxxxxxxxxxxxxxxxxxxx"
+    },
+      "channels": ["#xxxxxxx"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "jiahao_bot",
+  "version": "0.2.3-Alpha",
+  "description": "Twitch bot",
+  "main": "index.js",
+  "scripts": {
+    "pre-start": "npm update",
+    "start": "node index.js"
+  },
+  "author": "jiahaok",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "tmi.js": "0.0.29"
+  }
+}
