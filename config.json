@@ -1,38 +1,70 @@
 {
-  "botName": "Bot",
+  "botName": "jiahaobot",
+  "botColor": "Blue",
   "messageLimit": 1700,
   "commands":[
     {
-    "command": "version",
-    "params": 0,
-    "easyReply": false
+      "command": "version",
+      "params": 0,
+      "easyReply": false
     },
     {
-    "command": "endstream",
-    "params": 0,
-    "easyReply": true,
-    "reply": ""
+      "command": "endstream",
+      "params": 0,
+      "easyReply": true,
+      "requireMod": true,
+      "reply": [
+        "!follow",
+        "!link",
+        "!donate"
+      ]
+    },
+    {
+      "command": "echo",
+      "params": 0,
+      "easyReply": false,
+      "requireMod": true
+    },
+    {
+      "command": "backup",
+      "params": 0,
+      "easyReply": false,
+      "requireMod": true
+    },
+    {
+      "command": "uptime",
+      "params": 0,
+      "easyReply": true,
+      "requireMod": false,
+      "regexp": false,
+      "reply":[
+        "How would I know, that ain't my job"
+      ]
     }
   ],
   "timePosting":{
-    "interval": 240,
+    "interval": 1802000,
     "post": [
       "Jet fuel Can't Melt Steel Beams",
       "@Nightbot I will take your job one day"
     ]
   },
+  "donatePosting":{
+    "interval": 900000,
+    "message": "!donate"
+  },
   "irc": {
     "options": {
-      "debug": false
+      "debug": true
     },
     "connection": {
       "cluster": "aws",
       "reconnect": true
     },
     "identity": {
-      "username": "xxxxxxxxxxxxx",
-      "password": "oauth:xxxxxxxxxxxxxxxxxxxxx"
+      "username": "##########",
+      "password": "oauth:################"
     },
-      "channels": ["#xxxxxxx"]
+      "channels": ["#XXXXXXX"]
   }
 }
