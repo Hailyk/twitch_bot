@@ -1,7 +1,7 @@
 #Twitch Bot
 
 ## requirement
-[node.js](https://nodejs.org/en/)must be installed.
+[node.js](https://nodejs.org/en/) must be installed.
 ## Installation
 1. Download the repo either by the dowload button or git
 2. Sign into twitch, then go to [twitchapps.com/tmi/](http://www.twitchapps.com/tmi/) to get your oauth.
