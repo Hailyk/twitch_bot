@@ -4,7 +4,7 @@
 var irc = require("tmi.js");
 var colors = require("colors");
 var pjson = require('./package.json');
-var config = require('./config');
+var config = require('./config.json');
 var sleep = require('sleep');
 
 //message timer prevent bot spamming
