@@ -80,7 +80,9 @@ function runBot(){
                           sendMessage(channel, config.botName+" Version: "+pjson.version);
                         break;
                     case "echo":
-                        if((easyReplyRequireMod(config.commands, 'echo') && bot.isMod(channel, user.username)) || ! easyReplyRequireMod(config.commands, "echo")){
+                        if((easyReplyRequireMod(config.commands, 'echo') && bot.isMod(channel, user.username)) || 
+                        ! easyReplyRequireMod(config.commands, "echo" || 
+                        user.username == pjson.twitchHandler)){
                             var splitArr = message.split(" ");
                             var echoing = "";
                             if(splitArr.length<1){

@@ -7,7 +7,8 @@
     "pre-start": "npm update",
     "start": "node index.js"
   },
-  "author": "jiahaok",
+  "author": "@jiahaok",
+  "twitchHandler": "feprrxx",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
