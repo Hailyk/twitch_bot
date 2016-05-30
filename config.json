@@ -62,8 +62,8 @@
       "reconnect": true
     },
     "identity": {
-      "username": "KittenBlenderBot",
-      "password": "oauth:e2u2sjh4wkelgzrr59uhhco8ja6igm"
+      "username": "##########",
+      "password": "oauth:################"
     },
       "channels": ["#XXXXXXX"]
   }
