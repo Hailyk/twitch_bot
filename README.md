@@ -10,7 +10,7 @@
 5. start the bot`npm start`
 
 ## Configurate the Bot
-view wiki for config doc
+view [wiki](https://github.com/jiahaok/twitch_bot/wiki/Config) for config doc
 
 ## License
 
